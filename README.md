@@ -1,2 +1,2 @@
-# jovian-careers-website
-A careers website for Jovian
+# Python-Website-Template
+Python-Website-Template

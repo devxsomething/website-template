@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Job Add</title>
+  {% include 'bootstrap.html' %}
+</head>
+
+<body>
+  {% include 'nav.html' %}
+  {% include 'banner.html' %}
+
+  <div class="container">
+    <h1 class="text-center mt-2 mb-4">
+      Added Job
+    </h1>
+
+    <b>Title</b>
+    <div class="mb-2">{{job['title']}}</div>
+
+    <b>Location</b>
+    <div class="mb-2">{{job['Location']}}</div>
+
+    <b>Salary</b>
+    <div class="mb-2">{{job['salary']}}</div>
+
+    <b>Currency</b>
+    <div class="mb-2">{{job['currency']}}</div>
+
+    <b>Responsibilities</b>
+    <div class="mb-2">{{job['responsibilities']}}</div>
+
+    <b>Requirements</b>
+    <div class="mb-2">{{job['requirements']}}</div>
+  </div>
+  {% include 'footer.html' %}
+</body>
+
+</html>
